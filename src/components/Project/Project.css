@@ -1,0 +1,62 @@
+.Project{
+    width: 100%;
+    margin-top: 120px;
+}
+.Project h2.title{
+    text-align: center;
+}
+.Project p.text{
+    text-align: center;
+    margin-top: 20px;
+}
+.Project .box{
+    margin-top: 80px;
+}
+.Project .box h4{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #58A9A5;
+}
+.Project .box p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #486958;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.Project .card{
+    margin-top: 80px;
+}
+.Project .card h4{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #58A9A5;
+    margin-top: 30px;
+}
+.Project .card p{   
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #486958;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+@media(max-width: 992px){
+    .Project .box{
+        text-align: center;
+    }
+    .Project .card{
+        text-align: center;
+    }
+    .Project .card h4{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .Project .box h4{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}

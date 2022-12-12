@@ -1,0 +1,58 @@
+.Bottom {
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.Bottom .colomun {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom .colomun p.text {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #486958;
+}
+
+.Bottom form {
+    border: 1px solid #486958;
+    text-align: left;
+    padding: 15px 20px;
+}
+
+.Bottom form p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #486958;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    border-bottom: 1px solid #000;
+}
+.Bottom form .bot{
+    text-align: right;
+}
+
+.Bottom form .bot button {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    color: white;
+    background: #58A9A5;
+    border-radius: 20px 20px 20px 0px;
+    margin-top: 30px;
+    padding: 20px 70px;
+    border: none;
+}
+.Bottom form .bot button:hover{
+    cursor: pointer;
+    transition: 1s;
+} 
+@media(max-width: 992px){
+    .Bottom form{
+        margin-top: 50px;
+    }
+}

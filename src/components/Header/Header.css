@@ -1,0 +1,30 @@
+header {
+    width: 100%;
+    margin-top: 130px;
+}
+
+header .left {
+    text-align: left;
+}
+
+header .left p.text {
+    margin-top: 50px;
+}
+
+header .left button {
+    padding: 20px 80px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    background: #58A9A5;
+    border-radius: 20px 20px 20px 0px;
+    margin-top: 50px;
+    color: white;
+    border: none;
+}
+header .img{
+    text-align: right;
+}
+header .img img{
+    width: 100%;
+}
